@@ -2,7 +2,10 @@
   "name": "androspy",
   "version": "1.0.0",
   "description": "NodeJS port of Dendroid server",
-  "main": "index.js",  
+  "main": "index.js", 
+  "engines": {
+    "node": "10.18.x"
+    }, 
   "scripts": {
     "migrate": "./node_modules/.bin/sequelize db:migrate",
     "build": "./node_modules/.bin/gulp",
